@@ -1,0 +1,66 @@
+body {
+  width:800px;
+  margin: 0 auto;
+}
+.home {
+  width:100%;
+}
+.home h1 {
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+
+.home nav {
+  background-color: slategray;
+  color: white;
+  height: 80px;
+  font-size:24px;
+  line-height: 80px;
+}
+.navLi {
+  color:white;
+  text-decoration: none;
+  padding: 20px 50px;
+  box-sizing: border-box;
+}
+
+/* 서브메뉴 */
+.about-menu {
+  float: right;
+  width:80%;
+  height:50px;
+  background-color: slategray;
+}
+.about-menu li {
+  display: inline-block;
+  font-size: 18px;
+  height: 100%;
+  line-height: 50px;
+  margin-left:80px;
+}
+
+/* 메인메뉴 */
+.main-menu {
+  float: left;
+  width:20%;
+  height:600px;
+  background-color: slategray;
+  font-size:24px;
+  text-align: center;
+}
+
+.mainNav {
+  text-decoration: none;
+  color:white;
+  display: block;
+  width:80%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.mainNav:first-child {
+  margin-top: 5px;
+  font-size: 40px;
+}
+/*# sourceMappingURL=menus.css.map */
