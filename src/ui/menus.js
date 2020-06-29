@@ -27,10 +27,10 @@ export const MainMenu = () =>
       </NavLink>
    </nav>
 
-export const AboutMenu = ({match}) =>
+export const AboutMenu = () =>
    <div className='about-menu'>
       <li>
-         <NavLink to='/about' style={match.isExact && selectedStyle, {color:'#fff', textDecoration:'none'}}>
+         <NavLink to='/about' style={{color:'#fff', textDecoration:'none'}}>
          [회사]
          </NavLink>
       </li>
